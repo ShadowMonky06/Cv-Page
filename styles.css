@@ -537,6 +537,12 @@ html.dark .btn-secondary:hover {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
+  cursor: default;
+  transition: border-color 0.3s ease;
+}
+
+.cert-item-main:hover {
+  border-color: var(--primary);
 }
 
 .cert-icon-box {

@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function descargarCV() {
   const link = document.createElement("a");
-  link.href = "Moises Alejandro Echevarria Ibañez_cv.pdf";
+  link.href = "archivos/Moises Alejandro Echevarria Ibañez_cv.pdf";
   link.download = "Moises Alejandro Echevarria Ibañez_cv.pdf";
   link.click();
 }
